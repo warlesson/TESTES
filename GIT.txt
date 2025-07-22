@@ -1,0 +1,20 @@
+git init
+git add .
+git commit -m "Primeiro commit"
+git remote add origin https://github.com/warlesson/TESTES.git
+*****Se aparecer erro dizendo que já existe o remote, use:
+git remote set-url origin https://github.com/seu-usuario/nome-repo.git
+
+git branch -M main
+git push -u origin main
+*****Se estiver usando master, use:
+git push -u origin master
+
+
+Sempre que fizer mudanças:
+git add .
+git commit -m "minha alteração"
+git push
+
+
+git remote set-url origin https://github.com/warlesson/BOM-AVL.git
